@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Designing Company - Professional Web Solutions</title>
+    <meta name="description" content="Professional Website Designing Company offering responsive, SEO-friendly, and visually appealing web solutions. Contact us today.">
+    <meta name="keywords" content="Website Designing Company, Responsive Web Design, SEO, UI/UX, Web Development">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #007bff;
+            margin-top: 30px;
+        }
+        ul {
+            margin: 10px 0 20px 20px;
+        }
+        .cta {
+            background: #28a745;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+        .cta a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .faq-item {
+            margin-bottom: 15px;
+        }
+        .faq-question {
+            background: #007bff;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .faq-answer {
+            display: none;
+            padding: 10px;
+            background: #e9ecef;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Website Designing Company: Professional Web Solutions</h1>
+</header>
+
+<div class="container">
+    <p>Our company specializes in creating <strong>responsive, SEO-friendly, and visually appealing websites</strong> for businesses of all sizes. We focus on delivering modern web solutions that not only look great but also perform excellently across all devices.</p>
+
+    <img src="images/website-design.jpg" alt="Professional website design example" title="Professional Website Design">
+
+    <h2>Our Services</h2>
+    <ul>
+        <li>Custom website design tailored to your business</li>
+        <li>Responsive layouts for mobile, tablet, and desktop</li>
+        <li>SEO optimization for better search engine rankings</li>
+        <li>UI/UX design to enhance user experience</li>
+        <li>Website maintenance and updates</li>
+    </ul>
+
+    <h2>Why Choose Us?</h2>
+    <p>We combine creativity, technical expertise, and SEO knowledge to deliver websites that not only look stunning but also perform exceptionally. Our goal is to help your business grow online with a professional digital presence.</p>
+
+    <div class="cta">
+        <h2>Get Your Professional Website Today!</h2>
+        <p><a href="https://srspro.in/" target="_blank">Contact us now for a free consultation & quote!</a></p>
+    </div>
+
+    <h2>Frequently Asked Questions (FAQ)</h2>
+    
+    <div class="faq-item">
+        <div class="faq-question">What types of websites do you design?</div>
+        <div class="faq-answer">We design corporate websites, e-commerce stores, portfolios, blogs, and custom web applications tailored to your needs.</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">Are your websites mobile-friendly and responsive?</div>
+        <div class="faq-answer">Yes, all our websites are fully responsive and optimized for mobile, tablet, and desktop devices.</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">Do you provide SEO optimization?</div>
+        <div class="faq-answer">Absolutely! We implement on-page SEO strategies to help your website rank better in search engines.</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">How long does it take to complete a website?</div>
+        <div class="faq-answer">Typically, it takes 2-6 weeks depending on the complexity and requirements of the project.</div>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">Do you offer post-launch support?</div>
+        <div class="faq-answer">Yes, we provide ongoing maintenance and support to ensure your website runs smoothly.</div>
+    </div>
+</div>
+
+<script>
+    const faqQuestions = document.querySelectorAll('.faq-question');
+    faqQuestions.forEach(q => {
+        q.addEventListener('click', () => {
+            const answer = q.nextElementSibling;
+            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+</script>
+
+</body>
+</html>
